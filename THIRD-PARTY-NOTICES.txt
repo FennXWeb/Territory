@@ -1,0 +1,153 @@
+LOW-POLY WRESTLING RING
+Author: TepidGames
+Source: https://sketchfab.com/3d-models/low-poly-wrestling-ring-5affde7421bd4c3a84313be9be3e684c
+Author profile: https://sketchfab.com/TepidGames
+License: Creative Commons Attribution 4.0 International
+License URL: https://creativecommons.org/licenses/by/4.0/
+Downloaded via the Sketchfab website. Commercial use allowed with attribution.
+Changes: merged GLB geometry into a single OBJ, scaled for the venue, applied in-game materials.
+Original GLB retained in ExternalAssets/Sketchfab/ring.glb.
+
+ANNOUNCER AUDIO
+Generated using ElevenLabs, Charlie - Deep, Confident, Energetic.
+Model: eleven_multilingual_v2. Original scripts in Tools/generate_voice.ps1.
+These are stock synthetic voice performances, not a clone of a real wrestling announcer.
+Audio is generated at development time; the game does not contain an API key or require a network connection.
+
+LOW POLY MALE / LOW POLY FEMALE
+Author: Loves_Art
+Male: https://sketchfab.com/3d-models/low-poly-male-7d601a034c1c45e68151bddf386e48b3
+Female: https://sketchfab.com/3d-models/low-poly-female-07eeb124d210402bbc061e543d0b97a1
+Author profile: https://sketchfab.com/Loves_Art
+License: Creative Commons Attribution 4.0 International
+License URL: https://creativecommons.org/licenses/by/4.0/
+Downloaded through Sketchfab on October 1, 2026. Commercial use allowed with attribution.
+Changes: normalized proportions and coordinate systems, rebuilt deformation rigs,
+new authored animation clips, separated trouser materials, new outfit/skin colors.
+Male and female meshes also adapted for the athletic/technical wrestler presentations,
+including custom gear materials, boots, and knee pads.
+Original downloads: ExternalAssets/Sketchfab/crowd_male.glb and crowd_female.glb.
+
+ORIGINAL ROSTER CUSTOMIZATION
+All seven wrestlers derive from the Loves_Art generic male/female meshes above.
+Original changes authored for this project: front/back gear UVs; 2048px color and
+roughness maps; editable SVG patterns and insignias; modeled brush cut, spikes,
+bun, mohawk, cornrows, braid and fitted mask; wraps, knee/elbow pads, ear hoops
+and wrist studs; per-character palettes, skin tones and proportions. Accessories
+are weighted to the generic rigs. Source body attribution remains required.
+The earlier Idmenthal heavyweight and its derived assets have been removed.
+
+The production wrestling ring, folding chairs, PA cabinet, lighting truss, fog
+machine, venue surface shaders, interface, and game code were authored for this
+project. Blender source and reproducible build script are included. The earlier
+TepidGames ring remains in the source archive; the production ring is now used.
+
+VENUE SIGN ARTWORK
+Original texture atlas generated using the built-in imagegen tool on October 1, 2026.
+Source image: ExternalAssets/Signage/T_VenueSigns.png
+Exact prompt and tool provenance: ExternalAssets/Signage/generation.json
+Includes Miller Community Gym, backstage, exit and scoreboard sign designs.
+The custom-artwork test images are original code-authored fixtures, not user images.
+
+ENTRANCE MUSIC
+Metalmania, Rocket, and The Complex
+Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0
+https://creativecommons.org/licenses/by/4.0/
+Sources:
+https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700023
+https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100568
+https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300025
+License: https://incompetech.com/music/royalty-free/licenses/
+Downloaded 2026-10-01. Original MP3s, publisher catalogue records and licensing page
+are retained in ExternalAssets/Audio/Music. Edits: 70-second excerpts, normalization,
+PA bandwidth filtering/saturation, looping fades and venue-specific reverb.
+Credit is also included in the game's Credits page.
+
+CROWD SOUND EFFECTS
+Generated with the user's ElevenLabs account using eleven_text_to_sound_v2 on 2026-10-01.
+Ambience, cheer, boo, pinfall count, gasp and applause. Prompts and durations:
+ExternalAssets/Audio/Crowd/generation.json. Original PCM/WAV retained.
+https://elevenlabs.io/
+Venue versions use original authored room impulse responses; processing details:
+ExternalAssets/Audio/Production/processing.json and Tools/prepare_show_audio.py.
+No API credentials are stored in project files.
+
+WRESTLING CHOREOGRAPHY (October 2026)
+21 additional skeletal clips are authored by this project on the existing Loves_Art-derived rigs. No third-party motion-capture clips are used. Editable procedural source: Tools/build_match_animations.py.
+The mat impact is original synthesized audio. Individual count cues are edits of the existing ElevenLabs crowd-count recording, with venue reverb. The original unedited recording is retained. Sources: Tools/prepare_match_audio.py and ExternalAssets/Audio/Crowd/count.wav.
+
+CAMERA PRODUCTION (October 2026)
+Gimbal cameras and two motorized crane models are original procedural meshes in WMBroadcast.cpp. CameraHold and CameraWalk are original animations on the existing Loves_Art-derived generic male/female rigs, authored by Tools/build_camera_animations.py. The opening sequence reuses the licensed The Complex music cue and the existing ElevenLabs cheer/applause recordings, including the venue reverb variants.
+
+WRESTLER IDENTITY LOGOS (October 2026)
+Seven original logos generated with built-in image_gen for Jack Mercer, Leo Vega, June Voss, Dani Riot, Atlas King, The Night Shift and Sierra Stone.
+Transparent PNG sources and exact prompts: ExternalAssets/Branding/logos/prompts.json.
+Six additional entrance animation clips authored locally on the existing attributed generic character meshes.
+
+FIRST-PERSON ARMS
+Author: Drillimpact
+Sketchfab model: https://sketchfab.com/3d-models/psx-first-person-arms-efd731f559a14ab48e29c8a200d71788
+Creator download: https://drillimpact.itch.io/psx-first-person-arms-free
+License: CC0 (as stated on the creator's asset page)
+Original GLB retained at ExternalAssets/Sketchfab/psx_first_person_arms.glb.
+The embedded texture and relax / jab animations are imported for the first-person punch system.
+
+EXPANDED ROSTER ENTRANCE MUSIC
+
+Summon the Rawk by Kevin MacLeod (incompetech.com)
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200050
+Changes: 60-second entrance edit; mono PA filtering, normalization and venue reverb
+
+No Frills Cumbia by Kevin MacLeod (incompetech.com)
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100892
+Changes: 60-second entrance edit; mono PA filtering, normalization and venue reverb
+
+Rising Tide by Kevin MacLeod (incompetech.com)
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900010
+Changes: 60-second entrance edit; mono PA filtering, normalization and venue reverb
+
+Five Armies by Kevin MacLeod (incompetech.com)
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100875
+Changes: 60-second entrance edit; mono PA filtering, normalization and venue reverb
+
+Killers by Kevin MacLeod (incompetech.com)
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600024
+Changes: 60-second entrance edit; mono PA filtering, normalization and venue reverb
+
+Exhilarate by Kevin MacLeod (incompetech.com)
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300028
+Changes: 60-second entrance edit; mono PA filtering, normalization and venue reverb
+
+Jet Fueled Vixen by Kevin MacLeod (incompetech.com)
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700079
+Changes: 60-second entrance edit; mono PA filtering, normalization and venue reverb
+
+Son of a Rocket by Kevin MacLeod (incompetech.com)
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300045
+Changes: 60-second entrance edit; mono PA filtering, normalization and venue reverb
+
+Deep Haze by Kevin MacLeod (incompetech.com)
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100886
+Changes: 60-second entrance edit; mono PA filtering, normalization and venue reverb
+
+Fearless First by Kevin MacLeod (incompetech.com)
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600058
+Changes: 60-second entrance edit; mono PA filtering, normalization and venue reverb
+
+UNREAL ENGINE
+Territory uses Unreal Engine. Unreal and the Unreal Engine logo are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere.
+Unreal Engine, Copyright 1998-2026, Epic Games, Inc. All rights reserved.
+
+SMOG PUBLISHING ARTWORK
+Original Territory header, wordmark and icon generated with the built-in image_gen tool on October 6, 2026. Exact prompts: Publishing/artwork-prompts.json in the source repository.

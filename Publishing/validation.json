@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "archive": "territory-windows-x64-1.0.0.zip",
+  "version": "1.0.0",
+  "files": 91,
+  "compressedBytes": 358212323,
+  "extractedBytes": 493389171,
+  "sha256": "53f815b1eaa52a918a3cbcbc742d6bc9cc0d3bfe502b8781aecf69c0a116b9ae",
+  "smogFiles": [
+    "smog_icon.ico",
+    "smog_logo.png",
+    "smog_header.png",
+    "smog_meta.xml",
+    "smog_launch.bat"
+  ],
+  "headerSize": [
+    2400,
+    1000
+  ],
+  "logoSize": [
+    1200,
+    400
+  ],
+  "iconSizes": [
+    [
+      16,
+      16
+    ],
+    [
+      32,
+      32
+    ],
+    [
+      48,
+      48
+    ],
+    [
+      64,
+      64
+    ],
+    [
+      128,
+      128
+    ],
+    [
+      256,
+      256
+    ]
+  ]
+}

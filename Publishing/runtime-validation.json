@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "configuration": "Win64 Shipping",
+  "crowd": {
+    "legacy": false,
+    "fans": 4376,
+    "skeletalCharacters": 6,
+    "batches": 2,
+    "frames": 2454,
+    "averageFrameMs": 3.668,
+    "p95FrameMs": 4.303,
+    "averageCrowdUpdateMs": 0.006
+  },
+  "version": "1.0.0",
+  "date": "2026-10-06",
+  "userDataOutsideInstall": true,
+  "cases": [
+    {
+      "name": "Office",
+      "exitCode": 0,
+      "seconds": 26.48
+    },
+    {
+      "name": "Roster",
+      "exitCode": 0,
+      "seconds": 16.68
+    },
+    {
+      "name": "Equipment",
+      "exitCode": 0,
+      "seconds": 16.43
+    },
+    {
+      "name": "BuildCatalogue",
+      "exitCode": 0,
+      "seconds": 16.45
+    },
+    {
+      "name": "Crowd",
+      "exitCode": 0,
+      "seconds": 33.64
+    },
+    {
+      "name": "FullShow",
+      "exitCode": 0,
+      "seconds": 111.79
+    }
+  ],
+  "executableSHA256": "efc7c0f8301a139ba69ccb2e4cb557576b2821bdf3e6fd0434941298d5c58250",
+  "smogLauncher": {
+    "userData": "%LOCALAPPDATA%\\FennXWeb\\Territory\\Saved",
+    "status": "PASS",
+    "campaignWrittenDuringTest": false,
+    "waitedSeconds": 18,
+    "exitCode": 0
+  }
+}

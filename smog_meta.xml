@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smog version="1">
+  <title>Territory</title>
+  <description>Build a room. Book a card. Earn a crowd. Run your own wrestling promotion in first person: scout talent, build venues, create rivalries, produce live shows, and grow from a local gym to a packed arena.</description>
+  <developer>FennXWeb</developer>
+  <genre>Simulation</genre>
+  <version>1.0.0</version>
+  <accent>#E9B44C</accent>
+  <tags>
+    <tag>Wrestling</tag>
+    <tag>Management</tag>
+    <tag>Building</tag>
+    <tag>First person</tag>
+    <tag>Single player</tag>
+  </tags>
+  <release>
+    <asset>territory-windows-x64-*.zip</asset>
+  </release>
+</smog>

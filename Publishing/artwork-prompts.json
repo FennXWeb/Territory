@@ -1,0 +1,24 @@
+{
+  "tool": "Built-in image_gen",
+  "generated": "2026-10-06",
+  "assets": [
+    {
+      "output": "smog_header.png",
+      "source": "Publishing/Artwork/header-source.png",
+      "transparent_background": false,
+      "prompt": "Create original illustrated game-library key art for TERRITORY, a first-person independent wrestling promotion management simulator. Wide landscape composition designed to crop cleanly to 2400 x 1000 (12:5). Dramatic stylized low-poly late-1990s polygonal 3D look, sharp geometric forms, readable silhouettes, angular fictional male and female wrestlers, grounded indie game visual quality. Warm amber and deep teal palette with electric magenta lighting accents. A modest American community gymnasium transformed into a lively wrestling show: a square white-canvas ring with exactly THREE red horizontal ropes per side, black ring apron, folding-chair audience and fixed bleachers, basic truss lights, small curtain entrance, LED graphics. View from ringside at human eye level, a wrestler celebrating in the ring and another entering across a clear aisle; no violence or real-world wrestling brands. Subtle foreground management props: folded booking clipboard, tickets and small office CRT monitor at the very lower edge. Large excellent custom condensed sports typography 'TERRITORY' on the LEFT upper half, creamy ivory letters with a restrained amber underline, and small exact subtitle below it 'BUILD A ROOM. BOOK A CARD. EARN A CROWD.' Keep wordmark readable at thumbnail size. Give the ring and active show most of the RIGHT half. Sophisticated illustrated poster, not photorealism and not a screenshot mock-up. Keep all important art inside 7 percent margins. Only those two text lines, no logos from real wrestling companies, no watermarks."
+    },
+    {
+      "output": "smog_logo.png",
+      "source": "Publishing/Artwork/logo-source.png",
+      "transparent_background": true,
+      "prompt": "Generate an original professional game title wordmark for the fictional indie wrestling promotion management game TERRITORY, transparent background. Very wide 3:1 composition suitable for a 1200x400 PNG. Exact text 'TERRITORY' in large cream ivory bold condensed slightly forward-leaning angular sports lettering with tasteful dark teal outlines and a clean amber gold underline. Subtle ticket-stub notches or wrestling-ring corner detailing integrated into the first T, but the word is crystal clear and balanced. Beneath the underline, much smaller single line exact text 'WRESTLING PROMOTION SIMULATOR' in clean uppercase widely tracked ivory sans serif. Flat polished screenprint design with tiny worn-edge character, not heavy grunge. No scene, no rectangular background, no extra text, no other logos, no mockup, no shadows extending far away. The entire logo centered within a generous transparent margin. Must be visible on dark launcher backgrounds. Transparent alpha everywhere outside the wordmark."
+    },
+    {
+      "output": "smog_icon.ico",
+      "source": "Publishing/Artwork/icon-source.png",
+      "transparent_background": true,
+      "prompt": "Create an original square Windows app icon for TERRITORY, an indie wrestling promotion management simulator. Transparent background outside the icon silhouette. Strong bold geometric emblem, reads instantly at 16 pixels: a thick cream ivory capital T integrated with a simplified square wrestling ring corner and three amber gold ropes, contained within a deep teal softly rounded-square badge. Clean late-1990s sports game brand feel, flat vector-like crisp edges, very restrained bevel highlight, high contrast. Use cream #F7F1DF, amber #E9B44C and deep teal #16343D. Centered, generous 8 percent transparent outer padding; no letters other than the single T, no text, no extra symbols, no thin linework, no real-world wrestling logos. Icon export concept, not a product mockup, not a scene. High resolution square."
+    }
+  ]
+}
