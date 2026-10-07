@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <smog version="1">
   <title>Territory</title>
-  <description>Build a room. Book a card. Earn a crowd. Run your own wrestling promotion in first person: scout talent, build venues, create rivalries, produce live shows, and grow from a local gym to a packed arena.</description>
-  <developer>FennXWeb</developer>
-  <genre>Simulation</genre>
-  <version>1.0.0</version>
-  <accent>#E9B44C</accent>
-  <tags>
-    <tag>Wrestling</tag>
-    <tag>Management</tag>
-    <tag>Building</tag>
-    <tag>First person</tag>
-    <tag>Single player</tag>
-  </tags>
-  <release>
-    <asset>territory-windows-x64-*.zip</asset>
-  </release>
+  <description>A first-person wrestling promotion management simulator built with Unreal Engine. Portable Windows builds and SMOG support.</description>
+  <developer>Devon Becker</developer>
+  <genre>Adventure</genre>
+  <accent>#d5f458</accent>
+  <visibility>public</visibility>
+  <pricing>free</pricing>
+  <tags><tag>wrestling</tag><tag>simulation</tag><tag>3d</tag><tag>single player</tag><tag>management</tag><tag>tycoon</tag></tags>
+  <release><asset>*windows*.zip</asset></release>
 </smog>
