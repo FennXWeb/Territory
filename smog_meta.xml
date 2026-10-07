@@ -2,7 +2,7 @@
 <smog version="1">
   <title>Territory</title>
   <description>A first-person wrestling promotion management simulator built with Unreal Engine. Portable Windows builds and SMOG support.</description>
-  <developer>Devon Becker</developer>
+  <developer>DarkHeaven Games</developer>
   <genre>Adventure</genre>
   <accent>#d5f458</accent>
   <visibility>public</visibility>
