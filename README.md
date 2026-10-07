@@ -4,11 +4,11 @@
 
 Build a room. Book a card. Earn a crowd.
 
-Territory is a first-person wrestling promotion management simulator by FennXWeb. Start as a local booker in a community gym, scout and sign wrestlers, build your venue, book feuds and matches, and produce your own live shows. Grow through larger venues to a basketball arena.
+Territory is a first-person wrestling promotion management simulator by DarkHeaven Games. Start as a local booker in a community gym, scout and sign wrestlers, build your venue, book feuds and matches, and produce your own live shows. Grow through larger venues to a basketball arena.
 
 ## Download and play
 
-Download **territory-windows-x64-1.0.0.zip** from [the latest release](https://github.com/FennXWeb/Territory/releases/latest), extract the entire ZIP, and run **smog_launch.bat**. The compiled Windows x64 Shipping build includes its runtime files and cooked assets. Unreal Engine, ElevenLabs and Sketchfab accounts are not required to play. Windows 10/11 x64 with a DirectX 12 graphics card is required.
+Download **territory-windows-x64-1.1.0.zip** from [the latest release](https://github.com/FennXWeb/Territory/releases/latest), extract the entire ZIP, and run **smog_launch.bat**. The compiled Windows x64 Shipping build includes its runtime files and cooked assets. Unreal Engine, ElevenLabs and Sketchfab accounts are not required to play. Windows 10/11 x64 with a DirectX 12 graphics card is required.
 
 This is an early playable development build. Animations and visuals are stylized and continue to evolve. The header above is illustrated key art.
 
@@ -18,13 +18,23 @@ Add **FennXWeb/Territory** to SMOG, select the Windows ZIP, install, and press P
 
 | File | Format |
 | --- | --- |
-| smog_icon.ico | Generated icon: 16, 32, 48, 64, 128 and 256 px |
-| smog_logo.png | Generated transparent title logo, 1200 × 400 |
-| smog_header.png | Generated landscape key art, 2400 × 1000 |
+| smog_icon.ico | Windows icon: 256 px |
+| smog_logo.png | Generated transparent title logo, 1200 × 300 |
+| smog_header.png | Generated landscape key art, 1600 × 700 |
 | smog_meta.xml | Title, description, version, tags, accent and ZIP selection |
 | smog_launch.bat | Direct launch that waits for the game |
 
 Saves and settings live in `%LOCALAPPDATA%\FennXWeb\Territory\Saved`, outside SMOG's versioned installation folders. The campaign is `SaveGames\Territory_Campaign.sav` inside that directory. To continue a campaign from the Unreal project, close the game and copy its existing campaign there; back up any destination campaign before replacing it.
+
+## Main menu and settings
+
+![Territory main menu](Publishing/MainMenuPreview.png)
+
+Continue your promotion, start a new campaign, adjust settings, or quit from the main menu. Press **Escape** during play to pause the show and open it. Existing campaigns require confirmation before being replaced.
+
+Gameplay settings include mouse sensitivity, inverted look, field of view, and reduced flashing lights. Audio has separate master, music, crowd, announcer, and effects controls with playable previews. Graphics settings include fullscreen/borderless/windowed modes, resolution, quality presets, render scale, vertical sync, and a frame rate cap. Preferences persist separately from campaigns. Display changes revert after 15 seconds unless you confirm them.
+
+Settings previews: [gameplay](Publishing/GameplaySettingsPreview.png), [audio](Publishing/AudioSettingsPreview.png), [graphics](Publishing/GraphicsSettingsPreview.png).
 
 ## Playing a show
 
@@ -33,6 +43,7 @@ Use the Territory OS office desktop to buy equipment, manage talent, sign contra
 | Control | Action |
 | --- | --- |
 | WASD / mouse / Space | Walk / look / jump |
+| Escape | Pause menu / settings / back |
 | TAB | Management |
 | B | Build catalogue |
 | Left mouse / drag | Place equipment / create a seating block |

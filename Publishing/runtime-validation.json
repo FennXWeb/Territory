@@ -1,57 +1,104 @@
 {
+  "menu": {
+    "status": "PASS",
+    "startupMenu": true,
+    "cancelRestoresCamera": true,
+    "fourAudioBuses": true,
+    "liveMuteAndRestore": true,
+    "displayTimeoutRollback": true,
+    "pauseBlocksShowProgression": true,
+    "resume": true,
+    "newPromotion": true
+  },
+  "continueCampaign": {
+    "status": "PASS",
+    "continueLoadsCampaign": true
+  },
+  "cases": [
+    {
+      "name": "MainMenu",
+      "executableSHA256": "c9a299e03c229cfd82bd527183bc116cac092146c7409409ed801254f5559cc4",
+      "seconds": 31.88,
+      "exitCode": 0
+    },
+    {
+      "name": "SettingsPersistence",
+      "executableSHA256": "c9a299e03c229cfd82bd527183bc116cac092146c7409409ed801254f5559cc4",
+      "seconds": 6.78,
+      "exitCode": 0
+    },
+    {
+      "name": "NewCampaignSave",
+      "executableSHA256": "c9a299e03c229cfd82bd527183bc116cac092146c7409409ed801254f5559cc4",
+      "seconds": 7.4,
+      "exitCode": 0
+    },
+    {
+      "name": "ContinueCampaign",
+      "executableSHA256": "c9a299e03c229cfd82bd527183bc116cac092146c7409409ed801254f5559cc4",
+      "seconds": 6.42,
+      "exitCode": 0
+    },
+    {
+      "name": "Office",
+      "seconds": 17.47,
+      "exitCode": 0,
+      "executableSHA256": "a4c3dba20b9bdf16f35387e8fc90f940183d6aed02d63447710bc1ca318c74f1"
+    },
+    {
+      "name": "Roster",
+      "seconds": 17.54,
+      "exitCode": 0,
+      "executableSHA256": "a4c3dba20b9bdf16f35387e8fc90f940183d6aed02d63447710bc1ca318c74f1"
+    },
+    {
+      "name": "Equipment",
+      "seconds": 17.13,
+      "exitCode": 0,
+      "executableSHA256": "a4c3dba20b9bdf16f35387e8fc90f940183d6aed02d63447710bc1ca318c74f1"
+    },
+    {
+      "name": "BuildCatalogue",
+      "seconds": 17.13,
+      "exitCode": 0,
+      "executableSHA256": "a4c3dba20b9bdf16f35387e8fc90f940183d6aed02d63447710bc1ca318c74f1"
+    },
+    {
+      "name": "Crowd",
+      "seconds": 33.51,
+      "exitCode": 0,
+      "executableSHA256": "a4c3dba20b9bdf16f35387e8fc90f940183d6aed02d63447710bc1ca318c74f1"
+    },
+    {
+      "name": "FullShow",
+      "seconds": 113.57,
+      "exitCode": 0,
+      "executableSHA256": "a4c3dba20b9bdf16f35387e8fc90f940183d6aed02d63447710bc1ca318c74f1"
+    }
+  ],
+  "executableSHA256": "c9a299e03c229cfd82bd527183bc116cac092146c7409409ed801254f5559cc4",
+  "newCampaign": {
+    "status": "PASS",
+    "startupPreservesSave": true,
+    "newPromotionSaves": true
+  },
+  "preferences": {
+    "status": "PASS",
+    "preferencesPersistAcrossLaunches": true
+  },
   "status": "PASS",
-  "configuration": "Win64 Shipping",
+  "date": "2026-10-07",
   "crowd": {
     "legacy": false,
     "fans": 4376,
     "skeletalCharacters": 6,
     "batches": 2,
-    "frames": 2454,
-    "averageFrameMs": 3.668,
-    "p95FrameMs": 4.303,
-    "averageCrowdUpdateMs": 0.006
+    "frames": 2584,
+    "averageFrameMs": 3.482,
+    "p95FrameMs": 4.03,
+    "averageCrowdUpdateMs": 0.005
   },
-  "version": "1.0.0",
-  "date": "2026-10-06",
   "userDataOutsideInstall": true,
-  "cases": [
-    {
-      "name": "Office",
-      "exitCode": 0,
-      "seconds": 26.48
-    },
-    {
-      "name": "Roster",
-      "exitCode": 0,
-      "seconds": 16.68
-    },
-    {
-      "name": "Equipment",
-      "exitCode": 0,
-      "seconds": 16.43
-    },
-    {
-      "name": "BuildCatalogue",
-      "exitCode": 0,
-      "seconds": 16.45
-    },
-    {
-      "name": "Crowd",
-      "exitCode": 0,
-      "seconds": 33.64
-    },
-    {
-      "name": "FullShow",
-      "exitCode": 0,
-      "seconds": 111.79
-    }
-  ],
-  "executableSHA256": "efc7c0f8301a139ba69ccb2e4cb557576b2821bdf3e6fd0434941298d5c58250",
-  "smogLauncher": {
-    "userData": "%LOCALAPPDATA%\\FennXWeb\\Territory\\Saved",
-    "status": "PASS",
-    "campaignWrittenDuringTest": false,
-    "waitedSeconds": 18,
-    "exitCode": 0
-  }
+  "configuration": "Win64 Shipping",
+  "version": "1.1.0"
 }
