@@ -4,7 +4,6 @@
   <description>A first-person wrestling promotion management simulator built with Unreal Engine. Portable Windows builds and SMOG support.</description>
   <developer>DarkHeaven Games</developer>
   <genre>Simulation</genre>
-  <version>1.1.0</version>
   <accent>#d5f458</accent>
   <visibility>public</visibility>
   <pricing>free</pricing>
