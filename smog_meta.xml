@@ -9,5 +9,6 @@
   <pricing>free</pricing>
   <tags><tag>wrestling</tag><tag>simulation</tag><tag>3d</tag><tag>single player</tag><tag>management</tag><tag>tycoon</tag></tags>
   <tools><tool>Codex</tool><tool>ElevenLabs</tool><tool>Suno</tool><tool>Unreal Engine</tool><tool>Blender</tool></tools>
+  <store>{&quot;hero&quot;:&quot;cinematic&quot;,&quot;theme&quot;:&quot;violet&quot;,&quot;typography&quot;:&quot;modern&quot;,&quot;corners&quot;:&quot;rounded&quot;,&quot;focalPoint&quot;:50,&quot;sections&quot;:[&quot;about&quot;,&quot;screenshots&quot;,&quot;updates&quot;,&quot;requirements&quot;,&quot;reviews&quot;,&quot;similar&quot;],&quot;headline&quot;:&quot;&quot;,&quot;features&quot;:[],&quot;requirements&quot;:{&quot;minimum&quot;:{&quot;os&quot;:&quot;Windows 10&quot;,&quot;processor&quot;:&quot;Quad-core CPU at 2.5 GHz or faster&quot;,&quot;memory&quot;:&quot;8GB DDR4&quot;,&quot;storage&quot;:&quot;20GB&quot;,&quot;directX&quot;:&quot;11&quot;},&quot;recommended&quot;:{},&quot;notes&quot;:&quot;&quot;},&quot;links&quot;:[]}</store>
   <release><asset>*windows*.zip</asset></release>
 </smog>
